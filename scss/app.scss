@@ -1,0 +1,397 @@
+
+@import 'fonts.scss';
+body{
+    font-family: 'Work Sans';
+    font-size: 24px;
+    margin:0;
+    line-height: 1.6;
+    color:#333;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    margin:0;
+}
+a {
+    text-decoration: none;
+
+}
+
+/*===================INTRO===============================*/
+.intro-wrapper {
+    background: url(../images/banner-image.png) center no-repeat;
+    background-size: cover;
+    .intro{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+       /* max-width: 1366px;*/
+        height: 445px;
+    }
+    .intro-text{
+        margin:0 auto;
+    }
+}
+.Expert-Outlook {
+    font-family: 'Work Sans';
+    font-size: 71.5px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    padding-left: 7px;
+    
+  }
+  .Placeholder-copy-1 {
+    font-family: 'Work Sans';
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    padding:0 10px;
+    margin:20px 0 0 18px;
+    max-width: 659px;
+
+  }
+
+
+/*===========================INFO_TEXT==========================*/
+
+  .rectangle-fill-light-grey {
+    height: 435px;
+    background-color: #ebebeb;
+  }
+  .info-inner{
+      display:flex;
+      justify-content: space-between;
+      padding:66px 12px;
+      max-width: 1134px;
+      margin:0 auto;
+  }
+  .info-item{
+    width: calc(50% - 51px);
+    
+  }
+
+  .info-title{
+   
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    
+    text-align: left;
+    color: #2f3538;
+    margin-bottom: 25px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  }
+  .info-text{
+    
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    
+    text-align: left;
+    color: #2f3538;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+  
+  }
+
+
+
+  /*=======================STATISTIK======================*/
+
+.statistik-wrapper {
+  
+  height: 213px;
+  background-color: #3f4750;
+}
+.stat-item-cont{
+    height: 100%;
+    max-width: 924px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top:37px;
+    padding-right: 12px;
+}
+.stat-item{ 
+  width:127px;
+  text-transform: uppercase;
+}
+.stat-count{
+  font-family: 'Merriweather';
+  font-size: 70px;
+
+  text-align: center;
+  color: #ea792e;
+  line-height: 86px;;
+}
+.stat-text{
+
+  font-size: 24.5px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*=======================EXPLORE======================*/
+.expert-outlook{
+position: relative;
+text-align: center;
+margin:99px 0 84px 0;
+padding-right: 7px;
+}
+.outlook-image{
+    width:100%;
+	height: auto;
+    max-width: 904px;
+}
+.outlook-wrapper{
+  position: absolute;
+  top:119px;
+  left:7px;
+  right: 0;
+}
+.outlook-suptitle{
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 600;
+    letter-spacing: 0;
+    word-spacing: 0;
+  text-align: center;
+  color: #fff;
+
+}
+.outlook-title{
+
+  font-size: 50.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin:8px 0 20px 0;
+}
+.outlook-btn{
+  width: 115px;
+  height: 48px;
+  background-color: #ea792e;
+  border:none;
+  border-radius: 24px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;  font-weight: 500;
+  text-align: center;
+  padding-top:11px;
+  transition: background .3s linear, color .3s linear;
+} 
+.outlook-btn:hover{
+  background:#f04885;
+  color:#532452;
+}
+
+/*=======================MOMENTS======================*/
+
+.expert-cont{
+margin:0 auto;
+max-width: 915px; 
+}
+.expert-title{
+  font-size: 24.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 58px;
+  color: #2f3538;
+}
+
+.moments-wrapper{
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.moments-item{
+  position: relative;
+  width: 48%;
+  margin-bottom: 40px;
+}
+.moments-img{
+    width: 100%;
+    height: auto;
+    max-width: 428px;
+}
+.text-wrapper{
+  position: absolute;
+  left: 0;
+  right: 2px;
+  top:102px;
+}
+.moments-suptitle{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.moments-title{
+  font-size: 44.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff;
+}
+
+@media (max-width: 900px){
+    
+    .info-inner{
+        padding: 10px 10px;
+    }
+    .info-item {
+        width: calc(50% - 33px);
+    }
+    .info-title{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .expert-title{
+        margin-bottom: 25px;
+    }
+    .expert-outlook{
+        margin: 50px 0 40px 0;
+        padding: 0;
+    }
+
+    .moments-item{
+        margin-bottom: 20px;
+    }
+    .moments-wrapper{
+      padding: 0 20px;
+    }
+}
+
+@media (max-width: 750px){
+.rectangle-fill-light-grey{
+  height: auto;
+}
+.Expert-Outlook{
+    font-size: 60px;
+}
+.Placeholder-copy-1{
+    font-size: 18px;
+    margin:0;
+}
+
+.info-inner{
+  
+    flex-wrap: wrap;
+}
+.info-item{
+    width: 100%;
+}
+.info-title{
+    margin-top: 10px;;
+    text-align: center;
+}
+.info-text{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;;
+}
+
+.expert-outlook{
+    max-height: 350px;
+    margin:0;
+}
+.outlook-wrapper{
+    top:65px;
+}
+.outlook-suptitle{
+    font-size: 18px;
+}
+.outlook-title{
+    font-size: 45px;
+    margin: 3px 0 10px 0;
+}
+.expert-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.moments-item{
+    margin-bottom: 10px;
+}
+.text-wrapper{
+  top:80px;
+}
+.moments-suptitle{
+    font-size: 15px;
+}
+.moments-title{
+    font-size: 35px;;
+}
+}
+@media (max-width: 600px){
+  .info-title{
+    font-size: 20px;
+  }
+ 
+  .statistik-wrapper {
+    height: auto;
+  }
+  .stat-item-cont{
+    padding: 0;
+  }
+  .stat-item{
+    width: 100%;
+    border-bottom: 1px solid;
+  }
+  .moments-item{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 450px){
+
+}
